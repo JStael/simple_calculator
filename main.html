@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icon.svg">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Oxanium:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title> - Simple Calculator - </title>
+</head>
+<body>
+    <div class="container">
+        <h1>Calculator</h1>
+        <div>
+            <input type="number" id="n1">
+        
+            <select>
+                <option value="sum" selected> + </option>
+                <option value="sub"> - </option>
+                <option value="division"> / </option>
+                <option value="multi"> * </option>
+            </select>
+        
+            <input type="number" id="n2">
+            <button type="submit" id="calc">Calculate</button>
+
+            <div class="result">
+                <p>Result =</p>
+                <p id="res"></p>
+            </div>
+
+        </div>
+
+    </div>
+
+    <script src="main.js"></script>
+</body>
+</html>
